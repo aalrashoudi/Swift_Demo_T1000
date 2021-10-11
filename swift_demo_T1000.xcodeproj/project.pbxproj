@@ -10,6 +10,7 @@
 		62BFB3D327145050006B7106 /* Check_day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BFB3D227145050006B7106 /* Check_day.swift */; };
 		62BFB3D5271456DB006B7106 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BFB3D4271456DB006B7106 /* Quiz.swift */; };
 		62BFB3D72714590B006B7106 /* compute_salary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BFB3D62714590B006B7106 /* compute_salary.swift */; };
+		62C33B6C2714706E009A22CA /* Division Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C33B6B2714706E009A22CA /* Division Quiz.swift */; };
 		62F8C46C27142D6D00996015 /* Check_mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F8C46B27142D6D00996015 /* Check_mark.swift */; };
 		62F8C46E2714307B00996015 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F8C46D2714307B00996015 /* BMI.swift */; };
 		CE02B52C27140BEB00861F3D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B52B27140BEB00861F3D /* main.swift */; };
@@ -32,6 +33,7 @@
 		62BFB3D227145050006B7106 /* Check_day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check_day.swift; sourceTree = "<group>"; };
 		62BFB3D4271456DB006B7106 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		62BFB3D62714590B006B7106 /* compute_salary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compute_salary.swift; sourceTree = "<group>"; };
+		62C33B6B2714706E009A22CA /* Division Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Division Quiz.swift"; sourceTree = "<group>"; };
 		62F8C46B27142D6D00996015 /* Check_mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check_mark.swift; sourceTree = "<group>"; };
 		62F8C46D2714307B00996015 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 		CE02B52827140BEB00861F3D /* swift_demo_T1000 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swift_demo_T1000; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +68,7 @@
 				62BFB3D227145050006B7106 /* Check_day.swift */,
 				62BFB3D4271456DB006B7106 /* Quiz.swift */,
 				62BFB3D62714590B006B7106 /* compute_salary.swift */,
+				62C33B6B2714706E009A22CA /* Division Quiz.swift */,
 			);
 			path = Day1;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				62F8C46C27142D6D00996015 /* Check_mark.swift in Sources */,
 				62BFB3D5271456DB006B7106 /* Quiz.swift in Sources */,
 				62BFB3D72714590B006B7106 /* compute_salary.swift in Sources */,
+				62C33B6C2714706E009A22CA /* Division Quiz.swift in Sources */,
 				62BFB3D327145050006B7106 /* Check_day.swift in Sources */,
 				CE02B52C27140BEB00861F3D /* main.swift in Sources */,
 				CE02B53527140DC100861F3D /* utils.swift in Sources */,

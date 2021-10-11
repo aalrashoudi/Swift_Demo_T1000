@@ -7,33 +7,25 @@
 
 import Foundation
 
-print("Enter your mark")
-let mark = Utils.readDouble()
-print("Enter your Full mark")
-let fullmark = Utils.readInt()
+var score = 0
 
-
-
-let pct = mark / Double(fullmark) * 100
-print("The persentage:", round(pct * 100)/100, "%")
-
-
-switch pct {
-case 85...:
-    print("excellent")
-
-case 75..<85:
-    print ("very good")
-
-
-case 65..<75:
-   print ("good")
-
-case 50..<65:
-   print ("pass")
-
-default:
-
-    print("fail")
+for _ in 1...5 {
+    
+    let x = Int.random(in: 16...20)
+    let y = Int.random(in: 1...15)
+    
+    print("what's \(x) / \(y) ?", terminator: " ")
+    let answer = Utils.readDouble()
+    let correctAnswer = Double(x/y)
+    
+    if answer == round(correctAnswer * 100)/100 {
+        score+=1
+        print("Your answer is correct")
+        
+    } else {
+        
+        print("Your answer is wrong")
+    }
+    
 }
-
+print("The score is:", score, "from 5")
