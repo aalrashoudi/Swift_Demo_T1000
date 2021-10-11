@@ -24,7 +24,7 @@ for _ in 1...5 {
         
     } else {
         
-        print("Your answer is wrong")
+        print("Your answer is wrong","the correct answer is", correctAnswer )
     }
     
 }
