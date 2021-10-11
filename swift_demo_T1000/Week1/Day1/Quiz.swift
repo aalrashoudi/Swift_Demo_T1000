@@ -1,13 +1,13 @@
 //
-//  main.swift
+//  Quiz.swift
 //  swift_demo_T1000
 //
-//  Created by user on 10/11/21.
+//  Created by Abdullah AlRashoudi on 10/11/21.
 //
 
 import Foundation
 
-//let x = Int.random(in: 0..<35)
+let x = Int.random(in: 0..<35)
 //
 //let y = Int.random(in: 0..<45)
 //
