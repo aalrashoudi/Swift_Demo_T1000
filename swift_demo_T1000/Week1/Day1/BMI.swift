@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 //print("Enter your weight")
 //let weight = Utils.readDouble()
 //print("Enter your height mark")
@@ -17,4 +18,19 @@ import Foundation
 //print("The BMI:", round(bmi * 100)/100)
 //
 //
-
+//if bmi <= 18.5 {
+//    print("under wieght")
+//
+//} else if bmi <= 25 {
+//    print ("normal")
+//}
+//
+//else if bmi <= 30 {
+//   print ("over wieght")
+//}
+//else  {
+//   print ("obes")
+//
+//}
+//  
+//        

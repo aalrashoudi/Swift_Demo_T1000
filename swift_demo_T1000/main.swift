@@ -7,34 +7,30 @@
 
 import Foundation
 
-print("Enter your mark")
-let mark = Utils.readDouble()
-print("Enter your Full mark")
-let fullmark = Utils.readInt()
+print("Enter your weight")
+let weight = Utils.readDouble()
+print("Enter your height mark")
+let height = Utils.readDouble()
 
 
 
-let pct = mark / Double(fullmark) * 100
-print("The persentage:", round(pct * 100)/100, "%")
+let bmi = weight / pow(height / 100, 2)
+print("The BMI:", round(bmi * 100)/100)
 
 
-if pct >= 85 {
-    print("excellent")
-    
-} else if pct >= 75 {
-    print ("very good")
+if bmi <= 18.5 {
+    print("under wieght")
+
+} else if bmi <= 25 {
+    print ("normal")
 }
 
-else if pct >= 65 {
-   print ("good")
+else if bmi <= 30 {
+   print ("over wieght")
 }
-else if pct >= 50 {
-   print ("pass")
+else  {
+   print ("obes")
+
 }
-else {
-    
-    print("fail")
-}
-  
   
         
