@@ -7,13 +7,14 @@
 
 import Foundation
 
-print("Enter your mark")
-var mark = Utils.readDouble()
-print("Enter your Full mark")
-var fullmark = Utils.readInt()
+print("Enter your weight")
+let weight = Utils.readDouble()
+print("Enter your height mark")
+let height = Utils.readDouble()
 
 
 
-print("PCT =",(mark) / Double(fullmark) * 100)
+let bmi = weight / pow(height / 100, 2)
+print("The BMI:", round(bmi * 100)/100)
 
 
